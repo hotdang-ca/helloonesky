@@ -13,6 +13,7 @@
 		CB9F21E01CC91BE40012BCF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21DE1CC91BE40012BCF2 /* Main.storyboard */; };
 		CB9F21E21CC91BE40012BCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21E11CC91BE40012BCF2 /* Assets.xcassets */; };
 		CB9F21E51CC91BE40012BCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21E31CC91BE40012BCF2 /* LaunchScreen.storyboard */; };
+		CB9F21EE1CC927160012BCF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21EC1CC927160012BCF2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CB9F21E11CC91BE40012BCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9F21E41CC91BE40012BCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9F21E61CC91BE40012BCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9F21ED1CC927160012BCF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CB9F21E31CC91BE40012BCF2 /* LaunchScreen.storyboard */,
 				CB9F21E61CC91BE40012BCF2 /* Info.plist */,
 				CB9F21D51CC91BE40012BCF2 /* Supporting Files */,
+				CB9F21EC1CC927160012BCF2 /* Localizable.strings */,
 			);
 			path = HelloOneSky;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9F21E51CC91BE40012BCF2 /* LaunchScreen.storyboard in Resources */,
+				CB9F21EE1CC927160012BCF2 /* Localizable.strings in Resources */,
 				CB9F21E21CC91BE40012BCF2 /* Assets.xcassets in Resources */,
 				CB9F21E01CC91BE40012BCF2 /* Main.storyboard in Resources */,
 			);
@@ -172,6 +176,14 @@
 				CB9F21E41CC91BE40012BCF2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CB9F21EC1CC927160012BCF2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9F21ED1CC927160012BCF2 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
