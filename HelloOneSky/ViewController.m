@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSBundle+Language.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *rootWordLabelCollection;
@@ -22,11 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self initRootWordsArray];
-    [self initTranslatedWordsArray];
-    
-    [self initWords:rootWords withCollection:_rootWordLabelCollection];
-    [self initWords:translatedWords withCollection:_translatedWordLabelCollection];
+    [self reconfigure];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,6 +32,14 @@
 }
 
 #pragma mark - DataSource
+- (void)reconfigure {
+    [self initRootWordsArray];
+    [self initTranslatedWordsArray];
+    
+    [self initWords:rootWords withCollection:_rootWordLabelCollection];
+    [self initWords:translatedWords withCollection:_translatedWordLabelCollection];
+}
+
 - (void)initRootWordsArray {
     rootWords = @[@"Actions", @"Activity", @"Add", @"All", @"Answer",
                   @"Camera", @"Cancel", @"Comment", @"Configure", @"Connect",
@@ -89,6 +94,27 @@
         label.text = words[counter];
         counter++;
     }
+}
+
+#pragma mark - Actions
+-(IBAction)setFrenchPressed:(id)sender {
+    [NSBundle setLanguage:@"fr"];
+    [self reconfigure];
+}
+
+-(IBAction)setGermanPressed:(id)sender {
+    [NSBundle setLanguage:@"de"];
+    [self reconfigure];
+}
+
+-(IBAction)setRussianPressed:(id)sender {
+    [NSBundle setLanguage:@"ru"];
+    [self reconfigure];
+}
+
+-(IBAction)setEnglishPressed:(id)sender {
+    [NSBundle setLanguage:@"en"];
+    [self reconfigure];
 }
 
 @end

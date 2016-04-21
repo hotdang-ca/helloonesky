@@ -8,11 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-#import "NSBundle+Language.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        [NSBundle setLanguage:@"fr"];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
