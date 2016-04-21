@@ -14,6 +14,7 @@
 		CB9F21E21CC91BE40012BCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21E11CC91BE40012BCF2 /* Assets.xcassets */; };
 		CB9F21E51CC91BE40012BCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21E31CC91BE40012BCF2 /* LaunchScreen.storyboard */; };
 		CB9F21EE1CC927160012BCF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9F21EC1CC927160012BCF2 /* Localizable.strings */; };
+		CB9F21F91CC92E810012BCF2 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9F21F81CC92E810012BCF2 /* NSBundle+Language.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		CB9F21F41CC9294B0012BCF2 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CB9F21F51CC9295D0012BCF2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CB9F21F61CC9299B0012BCF2 /* fil */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fil; path = fil.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F71CC92E810012BCF2 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		CB9F21F81CC92E810012BCF2 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				CB9F21E61CC91BE40012BCF2 /* Info.plist */,
 				CB9F21D51CC91BE40012BCF2 /* Supporting Files */,
 				CB9F21EC1CC927160012BCF2 /* Localizable.strings */,
+				CB9F21F71CC92E810012BCF2 /* NSBundle+Language.h */,
+				CB9F21F81CC92E810012BCF2 /* NSBundle+Language.m */,
 			);
 			path = HelloOneSky;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9F21F91CC92E810012BCF2 /* NSBundle+Language.m in Sources */,
 				CB9F21DD1CC91BE40012BCF2 /* ViewController.m in Sources */,
 				CB9F21DA1CC91BE40012BCF2 /* AppDelegate.m in Sources */,
 				CB9F21D71CC91BE40012BCF2 /* main.m in Sources */,
