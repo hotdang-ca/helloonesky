@@ -57,7 +57,7 @@
                         NSLocalizedString(@"All", nil),
                         NSLocalizedString(@"Answer", nil),
                         
-                        NSLocalizedString(@"Camera", nil),
+                        NSLocalizedString(@"Edible", nil),
                         NSLocalizedString(@"Cancel", nil),
                         NSLocalizedString(@"Comment", nil),
                         NSLocalizedString(@"Configure", nil),
