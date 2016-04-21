@@ -28,6 +28,13 @@
 		CB9F21E41CC91BE40012BCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9F21E61CC91BE40012BCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB9F21ED1CC927160012BCF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F01CC9290A0012BCF2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F11CC929260012BCF2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F21CC929320012BCF2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F31CC929410012BCF2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F41CC9294B0012BCF2 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F51CC9295D0012BCF2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB9F21F61CC9299B0012BCF2 /* fil */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fil; path = fil.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +130,13 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
+				es,
+				nl,
+				ko,
+				ru,
+				fil,
 			);
 			mainGroup = CB9F21C91CC91BE40012BCF2;
 			productRefGroup = CB9F21D31CC91BE40012BCF2 /* Products */;
@@ -182,6 +196,13 @@
 			isa = PBXVariantGroup;
 			children = (
 				CB9F21ED1CC927160012BCF2 /* en */,
+				CB9F21F01CC9290A0012BCF2 /* fr */,
+				CB9F21F11CC929260012BCF2 /* de */,
+				CB9F21F21CC929320012BCF2 /* es */,
+				CB9F21F31CC929410012BCF2 /* nl */,
+				CB9F21F41CC9294B0012BCF2 /* ko */,
+				CB9F21F51CC9295D0012BCF2 /* ru */,
+				CB9F21F61CC9299B0012BCF2 /* fil */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
